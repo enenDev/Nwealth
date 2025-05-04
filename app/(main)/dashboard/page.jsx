@@ -23,6 +23,7 @@ async function DashboardPage() {
 
   // getting the all recent transactions data for the overview
   const transactions = await getDashbordData();
+  console.log("logging to check");
 
   return (
     <div className="space-y-8">
